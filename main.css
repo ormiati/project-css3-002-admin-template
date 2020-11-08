@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+.header--dark {
+    background-color: rgb(51 57 64);
+    color: rgb(236 236 236);
+    padding: 1.5rem;
+}
+
+.header__title {
+    display: inline;
+    font-size: 1.25rem;
+}
+
+.header__search {
+    display: inline;
+    float: right; 
+    }
+
+.search__input {
+    display: inline;
+    float: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;   
+}
+.search__input:hover {
+    border-color: rgb(128 189 255);
+    transition-timing-function: 0.15s;
+}
+
+.search__btn {
+    background-color: rgb(0 123 255);
+    display: inline;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+
+}
+
+.main__nav {
+    background-color: rgb(33 37 41);
+    color: rgb(236 236 236);
+    padding: 1rem;
+}
+
+.nav__ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+a  {text-decoration: none;
+    color: rgb(236 236 236);
+    padding: 1rem;
+}
+
+.content {
+    padding-left: 1rem;
+}
+
+.main__breadcrumb {
+    background-color: rgb(233 236 239);
+    border-radius: 0.25rem;
+    padding: 1rem 1.5rem;
+}
+
+.main__cards {
+    padding: 1rem;
+}
+
+.card__top {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    color: rgb(236 236 236);
+    transition-timing-function: 0.3s;
+}
+
+.card__bottom {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    color: rgb(236 236 236);
+    transition-timing-function: 0.3s;
+}
+
+.main__card--blue {
+    background-color: rgb(0 123 255);
+}
+
+.main__card--yellow {
+    background-color: rgb(255 193 7);
+}
+
+.main__card--green {
+    background-color: rgb(40 167 69);
+}
+
+.main__card--red {
+    background-color: rgb(220 53 69);
+}
+
+.flex-container {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    }
+
+.flex-container > aside {
+    float: left;
+    flex: 25%;
+}
+.flex-container > section {
+    float: right;
+    flex: 75%;
+}
+
+.flex-cards {
+    display: flex;
+    padding: 1rem;
+}
+
+.flex-cards > div {
+    flex-direction: row;
+    margin: 1rem;
+    padding: 0 1rem;
+    width: 25%;
+}
+
+
